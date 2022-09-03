@@ -1,0 +1,120 @@
+/* intial and multi use styles */
+
+body{
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+.big-head{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+.sub-head{
+  font-size: 2rem;
+}
+.para{
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
+.display-1{
+  padding: 7% 10%;
+  text-align: left;
+  background-color: #BAD7DF;
+}
+.display-2{
+  padding: 5% 10%;
+  text-align: left;
+  background-color: #F6F6F6;
+}
+
+
+/* navbar styling */
+
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  text-align: right;
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight:300;
+}
+
+
+/* front page style */
+
+.page-1 .display-1{
+  padding: 15% 10%
+}
+.front-items{
+  padding-left: 10px;
+}
+.first-contain{
+  padding-top: 3.5rem;
+}
+.second-contain{
+  text-align: center;
+}
+.comput-img{
+  width: 50%;
+}
+
+
+/* about me styles */
+
+.page-2 .big-head{
+  text-align: center;
+  padding-bottom: 10%;
+}
+.will-img{
+  width: 65%;
+}
+.about-container{
+  padding-top: 3.5rem;
+  text-align: right;
+}
+
+/* portfolio section styles */
+
+.page3 .display-1{
+  text-align: center;
+}
+.port-img{
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* style breakpoint script */
+
+@media (max-width: 1093px) {
+  .display-1{
+    text-align: center;
+  }
+  .display-2{
+    text-align: center;
+  }
+  .big-head{
+    font-size: 2.5rem;
+  }
+  .sub-head{
+    font-size: 1.5rem;
+  }
+  .page-1 .display-1{
+    padding: 7% 10%;
+  }
+  .head-contain{
+    width: 100%;
+  }
+  .second-contain{
+    width: 100%;
+  }
+  .comput-img{
+    /* display: none; */
+    width: 30%;
+  }
+
+}
